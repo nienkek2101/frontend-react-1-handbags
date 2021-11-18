@@ -1,7 +1,13 @@
 import React from 'react';
 import Button from './Button';
 import Product from './Product';
+import Tiles from './Tiles';
 import bag1 from './assets/bag_1.png';
+import bag2 from './assets/bag_2.png';
+import bag3 from './assets/bag_3.png';
+import bag4 from './assets/bag_4.png';
+import brand from './assets/brand.png';
+import story from './assets/our_story.png';
 
 import './App.css';
 
@@ -69,7 +75,43 @@ function App() {
                   bagName="The handy bag"
                   bagPrice="€400,-"
               />
+              <Product
+                  productStatus="Best seller"
+                  bagImage={bag2}
+                  bagName="The stylish bag"
+                  bagPrice="€250,-"
+              />
+              <Product
+                  productStatus="New collection"
+                  bagImage={bag3}
+                  bagName="The simple bag"
+                  bagPrice="€300,-"
+              />
+              <Product
+                  productStatus="New collection"
+                  bagImage={bag4}
+                  bagName="The trendy bag"
+                  bagPrice="€150,-"
+              />
           </main>
+          <footer>
+              <Tiles
+                  tileTitle="The brand"
+                  tileText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                  Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus."
+              />
+              <Tiles
+                  brandImage={brand}
+              />
+              <Tiles
+                  brandImage={story}
+              />
+              <Tiles
+                  tileTitle="Our story"
+                  tileText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                  Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus."
+              />
+          </footer>
 
       </>
   );
