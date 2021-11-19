@@ -108,9 +108,16 @@ function App() {
               />
               <Tiles
                   tileTitle="Our story"
-                  tileText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
-                  Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus."
-              />
+                  // tileText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                  // Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus."
+                  // tileText2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                  // Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus."
+              >
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                      Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat tincidunt neque. Duis commodo tellus eget mi tincidunt, nec mattis.
+                      Ut ut augue faucibus, ullamcorper velit in, rhoncus eros. Donec sed viverra libero, nec blandit lacus. Ut a turpis lacus.</p>
+              </Tiles>
           </footer>
 
       </>
